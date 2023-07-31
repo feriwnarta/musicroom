@@ -1,0 +1,20 @@
+/* Pendefinisian Variabel Warna */
+:root {
+    --primary-main: #F51112;
+    --primary-surface: #FDECE9;
+    --primary-border: #FFC1B7;
+    --primary-hover: #B70C0D;
+    --primary-pressed: #6D0708;
+    --primary-focused: #FF2638;
+    --primary-background: #0F0F0F;
+    --primary-card-background: #272727;
+}
+
+body {
+    background-color: var(--primary-background) !important;
+}
+
+
+
+
+/* Button Theme  */

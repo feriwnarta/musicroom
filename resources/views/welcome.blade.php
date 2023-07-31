@@ -1,6 +1,7 @@
 @extends('templates.app')
 
-@section('content')
-
+@section('header')
+    @include('partials.navbar')
 @endsection
+
 
