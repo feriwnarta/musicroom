@@ -17,5 +17,8 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-
-Route::get("/login", [loginPage::class, "login"]);
+Route::controller(loginPage::class)->group(function (){
+    Route::get("/login", [loginPage::class, "login"]);
+    Route::post("/submitLogin", [loginPage::class, "submitLogin"]);
+});
+Route::get("/", [\App\Http\Controllers\homeController::class, "index"]);

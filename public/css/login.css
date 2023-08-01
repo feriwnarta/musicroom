@@ -1,6 +1,7 @@
 /*Dekstop style*/
 body{
     overflow-x: hidden;
+    background-color: black !important;
 }
 .img-logo{
     margin-top: 30px;
@@ -16,6 +17,11 @@ input{
     height: 32px;
     border: 1px solid white;
     background-color: transparent;
+    color: white; !important;
+    padding: 2px;
+}
+input:focus{
+    outline-color: #F51112;
 }
 input::placeholder{
     margin-left: 12px;

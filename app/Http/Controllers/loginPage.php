@@ -11,4 +11,10 @@ class loginPage extends Controller
     {
         return view('loginPage');
     }
+
+    public function submitLogin(Request $request){
+
+    }
+
+
 }
