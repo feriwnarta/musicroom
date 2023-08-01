@@ -8,13 +8,16 @@ use Illuminate\View\Component;
 
 class Navbar extends Component
 {
+    public string $logo;
+
     /**
-     * Create a new component instance.
+     * @param string $logo
      */
-    public function __construct()
+    public function __construct(string $logo)
     {
-        //
+        $this->logo = $logo;
     }
+
 
     /**
      * Get the view / contents that represent the component.
