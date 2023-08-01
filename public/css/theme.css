@@ -123,6 +123,7 @@ body {
     letter-spacing: -0.011rem;;
 }
 
+
 /* Btn Dropdown */
 .btn-dropdown-outline {
     color: #747474;
@@ -133,6 +134,7 @@ body {
     line-height: 1.25rem; /* 142.857% */
     border: none !important;
     outline: none !important;
+    padding-right: 0px !important;
 }
 
 /* Btn input */
@@ -182,72 +184,82 @@ body {
 
 
 /* TEXT */
-.he-extra-bold {
-    color: var(--neutral-100, #0A0A0A);
-    font-family: var(--font-family);
-    font-size: 16.25rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21.25rem;
-}
 
-h1 {
+/* regular */
+.heading-1-regular {
     color: var(--neutral-100, #0A0A0A);
-    /* H1/Extra Bold */
-    font-family: var(--font-family);
-    font-size: 6rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 8rem; /* 133.333% */
-}
 
-h2 {
-    color: var(--neutral-100, #0A0A0A);
-    /* H2/Bold */
+    /* Heading 1/Regular */
     font-family: var(--font-family);
     font-size: 5rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 6.5rem; /* 130% */
 }
 
-h3 {
+.heading-2-regular {
     color: var(--neutral-100, #0A0A0A);
-    /* H3/Bold */
-    font-family: var(--font-family);
+
+    /* Heading 2/Regular */
+    font-family: Manrope;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.25rem; /* 131.25% */
+}
+
+.heading-3-regular {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 3/Regular */
+    font-family: Manrope;
     font-size: 3.5rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 4.75rem; /* 135.714% */
 }
 
-h4 {
+.heading-4-regular {
     color: var(--neutral-100, #0A0A0A);
-    /* H4/Bold */
-    font-family: var(--font-family);
+
+    /* Heading 4/Regular */
+    font-family: Manrope;
     font-size: 3.25rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 4.25rem; /* 130.769% */
 }
 
-h5 {
+.heading-5-regular {
     color: var(--neutral-100, #0A0A0A);
-    /* H5/Bold */
-    font-family: var(--font-family);
-    font-size: 2rem;
+
+    /* Heading 5/Regular */
+    font-family: Manrope;
+    font-size: 2.5rem;
     font-style: normal;
-    font-weight: 700;
-    line-height: 2.75rem; /* 137.5% */
+    font-weight: 400;
+    line-height: 3.25rem; /* 130% */
 }
 
-h5 .semi-bold{
+.heading-6-regular {
     color: var(--neutral-100, #0A0A0A);
-    /* H5/Bold */
-    font-family: var(--font-family);
+
+    /* Heading 6/Regular */
+    font-family: Manrope;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem; /* 133.333% */
+}
+
+.heading-7-regular {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 7/Regular  */
+    font-family: Manrope;
     font-size: 2rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 2.75rem; /* 137.5% */
 }
 
@@ -255,97 +267,409 @@ h5 .semi-bold{
     color: var(--neutral-100, #0A0A0A);
 
     /* Subtitle 1/Regular */
-    font-family: var(--font-family);
-    font-size: 2.25rem;
+    font-family: Manrope;
+    font-size: 1.75rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 3rem; /* 133.333% */
+    line-height: 2.25rem; /* 128.571% */
 }
 
 .subtitle-2-regular {
     color: var(--neutral-100, #0A0A0A);
 
     /* Subtitle 2/Regular */
-    font-family: var(--font-family);
+    font-family: Manrope;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1rem; /* 133.333% */
+    line-height: 2rem; /* 133.333% */
 }
 
-.p1-regular {
+.subtitle-3-regular {
     color: var(--neutral-100, #0A0A0A);
 
-    /* Paragraph 1/Regular */
-    font-family: var(--font-family);
+    /* Body Text 1/Regular */
+    font-family: Manrope;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5rem; /* 150% */
 }
 
-.p2-regular {
+.body-text-1-regular {
     color: var(--neutral-100, #0A0A0A);
 
-    /* Paragraph 2/Regular */
-    font-family: var(--font-family);
+    /* Body Text 1/Regular */
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+}
+
+.body-text-2-regular {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Body Text 2/Regular */
+    font-family: Manrope;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem; /* 142.857% */
 }
 
-.p3-regular {
+.caption-regular {
     color: var(--neutral-100, #0A0A0A);
 
-    /* Paragraph 3/Regular */
-    font-family: var(--font-family);
+    /* Caption/Regular */
+    font-family: Manrope;
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1rem; /* 133.333% */
 }
 
-.p1-medium {
+.overline-regular {
     color: var(--neutral-100, #0A0A0A);
 
-    /* Paragraph 1/Medium */
-    font-family: var(--font-family);
+    /* Overline/Regular */
+    font-family: Manrope;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.75rem; /* 120% */
+}
+
+.button-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Button/Medium */
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; /* 142.857% */
+}
+
+/* Medium */
+.heading-1-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 1/Medium */
+    font-family: Manrope;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 6.5rem; /* 130% */
+}
+
+.heading-2-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 2/Medium */
+    font-family: Manrope;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5.25rem; /* 131.25% */
+}
+
+.heading-3-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 3/Medium */
+    font-family: Manrope;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4.75rem; /* 135.714% */
+}
+
+.heading-4-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 4/Medium */
+    font-family: Manrope;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4.25rem; /* 130.769% */
+}
+
+.heading-5-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 5/Medium */
+    font-family: Manrope;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.25rem; /* 130% */
+}
+
+.heading-6-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 6/Medium */
+    font-family: Manrope;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem; /* 133.333% */
+}
+
+.heading-7-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 7/Medium  */
+    font-family: Manrope;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.75rem; /* 137.5% */
+}
+
+.subtitle-1-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Subtitle 1/Medium */
+    font-family: Manrope;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.25rem; /* 128.571% */
+}
+
+.subtitle-2-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Subtitle 2/Medium */
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem; /* 133.333% */
+}
+
+.subtitle-3-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Subtitle 3/Medium */
+    font-family: Manrope;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem; /* 140% */
+}
+
+.body-text-1-medium {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Body Text 1/Bold */
+    font-family: Manrope;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5rem; /* 150% */
 }
 
-.p1-bold {
+.body-text-2-medium {
     color: var(--neutral-100, #0A0A0A);
 
-    /* Paragraph 1/Bold */
-    font-family: var(--font-family);
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5rem; /* 150% */
-}
-
-.p2-bold {
-    color: var(--neutral-100, #0A0A0A);
-
-    /* Paragraph 2/Bold */
-    font-family: var(--font-family);
+    /* Body Text 2/Bold */
+    font-family: Manrope;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 700;
     line-height: 1.25rem; /* 142.857% */
 }
 
-.p3-bold {
+/* Semi Bold */
+.heading-1-semi-bold {
     color: var(--neutral-100, #0A0A0A);
 
-    /* Paragraph 3/Bold */
-    font-family: var(--font-family);
-    font-size: 0.75rem;
+    /* Heading 1/Semi Bold */
+    font-family: Manrope;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 6.5rem; /* 130% */
+}
+
+.heading-2-semi-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 2/Semi Bold */
+    font-family: Manrope;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5.25rem; /* 131.25% */
+}
+
+.heading-3-semi-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 3/Semi Bold */
+    font-family: Manrope;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.75rem; /* 135.714% */
+}
+
+.heading-4-semi-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 4/Semi Bold */
+    font-family: Manrope;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.25rem; /* 130.769% */
+}
+
+.heading-5-semi-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 5/Semi Bold */
+    font-family: Manrope;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.25rem; /* 130% */
+}
+
+.heading-6-semi-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 6/Semi Bold */
+    font-family: Manrope;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem; /* 133.333% */
+}
+
+.heading-7-semi-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 7/Semi Bold  */
+    font-family: Manrope;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.75rem; /* 137.5% */
+}
+
+.subtitle-1-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Subtitle 1/Bold */
+    font-family: Manrope;
+    font-size: 1.75rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 1rem; /* 133.333% */
+    line-height: 2.25rem; /* 128.571% */
 }
+
+.subtitle-2-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Subtitle 2/Bold */
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem; /* 133.333% */
+}
+
+/* Bold */
+.heading-1-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 1/Bold */
+    font-family: Manrope;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6.5rem; /* 130% */
+}
+
+.heading-2-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 2/Bold */
+    font-family: Manrope;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5.25rem; /* 131.25% */
+}
+
+.heading-3-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 3/Bold */
+    font-family: Manrope;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.75rem; /* 135.714% */
+}
+
+.heading-4-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 4/Bold */
+    font-family: Manrope;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.25rem; /* 130.769% */
+}
+
+.heading-5-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 5/Bold */
+    font-family: Manrope;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem; /* 130% */
+}
+
+.heading-6-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 6/Bold */
+    font-family: Manrope;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem; /* 133.333% */
+}
+
+.heading-7-bold {
+    color: var(--neutral-100, #0A0A0A);
+
+    /* Heading 7/Bold */
+    font-family: Manrope;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.75rem; /* 137.5% */
+}
+
+
+
+
+
+
+
+/* SPACER */
+.margin-left-1rem {
+    margin-left: 1rem;
+}
+
