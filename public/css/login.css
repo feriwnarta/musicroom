@@ -1,0 +1,60 @@
+/*Dekstop style*/
+body{
+    overflow-x: hidden;
+    background-color: black !important;
+}
+.img-logo{
+    margin-top: 30px;
+    margin-left: 48px;
+}
+.form-login{
+    margin-top: 120px;
+}
+
+input{
+    border-radius: 6px;
+    width: 384px;
+    height: 32px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white; !important;
+    padding: 2px;
+}
+input:focus{
+    outline-color: #F51112;
+}
+input::placeholder{
+    margin-left: 12px;
+    position: absolute;
+}
+
+.btn-login{
+    padding: 6px 16px 6px 16px;
+    width: 384px;
+    height: 36px;
+    border-radius: 100px !important;
+    background-color: #F51112 !important;
+}
+.btn-google{
+    padding: 6px 16px 6px 16px;
+    width: 384px;
+    height: 36px;
+    border-radius: 100px !important;
+    background-color: #F1F1F1 !important ;
+}
+
+.subtittle-login{
+    color: #616161;
+}
+.slice{
+    width: 384px;
+    height: 2px;
+    background-color: #404040;
+}
+
+.text-footer{
+    color: #616161;
+}
+.link-sign-up{
+    color: #F51112 ;
+}
