@@ -1,1 +1,31 @@
+/* HOME STYLE */
+.hero-rect1 {
+    border-radius: 2.5rem 0.5rem;
+    background: var(--primary-card-background, #272727);
+    padding: 1.5rem 1.5rem;
+    width: 15rem;
+}
 
+.profile-hero {
+    width: 7.75rem;
+    height: 7.75rem;
+}
+
+.rect-bg {
+    width: 15rem;
+    padding: 2.5rem 2.38rem 2.5rem 2.25rem;
+    border-radius: 2.5rem 0.5rem;
+    background: var(--primary-card-background, #272727);
+}
+
+.hero-rect3 {
+    width: 15rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 2.5rem 0.5rem;
+    background: var(--primary-card-background, #272727);
+}
+
+.reach-out-btn {
+    position: relative;
+    left: 40%;
+}
